@@ -1,0 +1,44 @@
+.about {
+  text-align: start;
+}
+
+.intro {
+  margin-top: 7rem;
+  margin-left: 4rem;
+  height: clamp(10rem, 28vw, 20rem);
+  display: flex;
+}
+
+h1 {
+  font-size: clamp(3.5rem, 8vw, 7rem);
+  font-weight: 700;
+}
+.sub-text {
+  font-size: clamp(2.2rem, 8vw, 5rem);
+  font-weight: 320;
+}
+
+.infos-container {
+  margin: 6rem 4rem 0rem;
+    display: flex;
+}
+
+.infos {
+width: 50%;
+min-width: 20rem;
+}
+
+.infos h2 {
+  font-size: clamp(1.4rem, 4vw, 2rem);
+  font-weight: 600;
+  width: 100%;
+}
+
+.infos p {
+  font-size: clamp(0.6rem, 3vw, 1rem);;
+  font-weight: 400;
+}
+
+.experiences {
+  margin-top: 2rem;
+}

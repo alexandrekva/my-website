@@ -1,0 +1,31 @@
+li {
+    list-style-type: none;
+    margin-bottom: 1rem;
+}
+
+ul {
+    padding: 0;
+}
+
+.skill-label {
+    display: flex;
+    align-items: center;
+    height: 2.5rem;
+}
+
+.skill-label span {
+    margin-left: 0.3rem;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #042a2b;
+}
+
+.react-icons {
+    height: 2rem;
+    width: 2rem;
+    color: #042a2b;
+}
+
+ProgressBar {
+    width: 60%;
+}
