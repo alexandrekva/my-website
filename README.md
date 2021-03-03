@@ -1,6 +1,7 @@
 <h1 class="code-line" data-line-start=0 data-line-end=1 ><a id="My_personal_webpage_0"></a>My personal website</h1>
 <p class="has-line-data" data-line-start="2" data-line-end="4">My personal website created using React!<br>
 This project is not finished yet!</p>
+<a href="https://alexandrekva.github.io/my-website/#/" target="blank">Acesse aqui!</a>
 <img src="https://i.ibb.co/cCqnv7x/my-website.png" alt="my-website" width="570" height="270" data-load="full" style="">
 
 
