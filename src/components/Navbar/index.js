@@ -20,7 +20,7 @@ export default function MyNavbar() {
           <Nav className="nl-auto">
             <Link className="link" to="/">sobre mim</Link>
             <Link className="link" to="/skills">skills</Link>
-            <Link className="link" to="/links">links</Link>
+            <Link className="link" to="/portfolio">portfolio</Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

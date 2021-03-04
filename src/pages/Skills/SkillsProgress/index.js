@@ -1,7 +1,6 @@
 import React from 'react'
 import { SkillsData } from './SkillsData';
-import ProgressBar from "react-bootstrap/ProgressBar";
-import "bootstrap/dist/css/bootstrap.min.css";
+import SkillLevel from "./SkillLevel";
 import "./style.css";
 
 export default function Skills() {
@@ -15,7 +14,7 @@ export default function Skills() {
                                 {item.icon}
                                 <span>{item.skill}</span>
                             </div>
-                            <ProgressBar variant="info" now={item.level} srOnly/>
+                            <SkillLevel level={item.level} />
                         </li>
                     );
                 })}

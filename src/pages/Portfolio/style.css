@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: center;
     color: rgba(0, 0, 0, 0.85);
-    font-size: 6rem;
+    font-size: clamp(3rem, 8vw, 6rem);
 }
 
 .title-links span {

@@ -6,17 +6,17 @@ export const SkillsData = [
   {
     skill: "Java",
     icon: <DiIcons.DiJava className="react-icons" />,
-    level: 70,
+    level: 80,
   },
   {
     skill: "JavaScript",
     icon: <DiIcons.DiJavascript1 className="react-icons" />,
-    level: 60,
+    level: 70,
   },
   {
     skill: "React",
     icon: <DiIcons.DiReact className="react-icons" />,
-    level: 60,
+    level: 70,
   },
   {
     skill: "HTML",
@@ -31,12 +31,12 @@ export const SkillsData = [
   {
     skill: "GIT",
     icon: <DiIcons.DiGithubBadge className="react-icons" />,
-    level: 75,
+    level: 85,
   },
   {
     skill: "Firebase",
     icon: <SiIcons.SiFirebase className="react-icons" />,
-    level: 65,
+    level: 60,
   },
 
 

@@ -42,3 +42,15 @@ min-width: 20rem;
 .experiences {
   margin-top: 2rem;
 }
+
+@media only screen and (max-width: 600px) {
+  .intro {
+    margin: 2rem 0 0;
+    justify-content: center;
+  }
+
+  .infos-container {
+    margin: 0;
+    justify-content: center;
+  }
+}

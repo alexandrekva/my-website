@@ -1,0 +1,28 @@
+.skill-level {
+    width: 100%;
+    height: 1.2rem;
+    background: rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+}
+
+.level-container{
+    height: 100%;
+    border-radius: 15px;
+    background: transparent;
+}
+
+.level {
+    height: 100%;
+    border-radius: 15px;
+    background-color: #0B2027;
+    animation: 0.8s progress forwards;
+}
+
+@keyframes progress {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 100%;
+    }
+}

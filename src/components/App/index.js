@@ -3,7 +3,7 @@ import "./style.css";
 import Navbar from "../Navbar";
 import About from "../../pages/About";
 import Skills from "../../pages/Skills";
-import Links from "../../pages/Links";
+import Portfolio from "../../pages/Portfolio";
 import Footer from "../Footer";
 import Container from "react-bootstrap/Container";
 import "./style.css";
@@ -21,7 +21,7 @@ export default function App() {
             <Switch>
               <Route exact path="/" component={About} />
               <Route path="/skills" component={Skills} />
-              <Route path="/links" component={Links} />
+              <Route path="/portfolio" component={Portfolio} />
             </Switch>
             </div>
           </div>
