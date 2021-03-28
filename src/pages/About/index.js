@@ -26,8 +26,8 @@ export default function About() {
             <h2>Experiências</h2>
             <p>
               Atualmente estou estagiando na Ford Brasil no time de
-              desenvolvimento de software. Também tenho alguns projetos pessoais
-              que desenvolvi em Android nativo.
+              desenvolvimento de software. Inicialmente participei no desenvolvimento de uma aplicação web utilizando React, e atualmente estou participando no desenvolvimento de uma aplicação mobile Android nativo. Também tenho alguns projetos pessoais
+              que desenvolvi que você pode conferir na aba portfólio!
             </p>
           </div>
         </div>

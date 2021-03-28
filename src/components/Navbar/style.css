@@ -17,3 +17,9 @@ transition: 300ms;
     color: grey;
     transition: 400ms;
 }
+
+.sticky {
+    position: fixed;
+    width: 100%;
+    top: 0;
+}

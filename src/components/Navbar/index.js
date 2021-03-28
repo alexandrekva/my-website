@@ -9,7 +9,7 @@ import * as DiIcons from "react-icons/di";
 
 export default function MyNavbar() {
   return (
-    <div>
+    <div className="sticky">
       <Navbar bg="dark" variant="dark" expand="lg">
         <Navbar.Brand to="/">
           <DiIcons.DiCode className="brandIcon"/>
@@ -20,7 +20,7 @@ export default function MyNavbar() {
           <Nav className="nl-auto">
             <Link className="link" to="/">sobre mim</Link>
             <Link className="link" to="/skills">skills</Link>
-            <Link className="link" to="/portfolio">portfolio</Link>
+            <Link className="link" to="/portfolio">portfólio</Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
