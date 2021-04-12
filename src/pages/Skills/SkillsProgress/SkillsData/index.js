@@ -9,6 +9,11 @@ export const SkillsData = [
     level: 80,
   },
   {
+    skill: "Kotlin",
+    icon: <SiIcons.SiKotlin className="react-icons" />,
+    level: 50,
+  },
+  {
     skill: "JavaScript",
     icon: <DiIcons.DiJavascript1 className="react-icons" />,
     level: 70,
@@ -38,6 +43,4 @@ export const SkillsData = [
     icon: <SiIcons.SiFirebase className="react-icons" />,
     level: 60,
   },
-
-
 ];
