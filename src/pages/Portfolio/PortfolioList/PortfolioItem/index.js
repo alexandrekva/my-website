@@ -14,7 +14,10 @@ export default function PortfolioItem(props) {
                     <a href={props.project.gitLink} target="_blank" rel="noopener noreferrer">{props.project.gitText}</a>
                     </div>
             </div>
+            <div className="img-container">
                 <img src={props.project.img} alt="Project"/>
+            </div>
+                
         </div>
     )
 }

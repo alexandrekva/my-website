@@ -7,12 +7,13 @@
     width: 80%;
     max-width: 60rem;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     box-shadow: 3px 4px 8px #cacaca4f;
 }
 
 .item-content {
     width: 100%;
+    flex: 6;
 }
 
 .item-content h1 {
@@ -29,10 +30,18 @@
     width: 85%;
 }
 
+.item-container .img-container{
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
 
 .item-container img {
-    height: clamp(5rem, 10vw, 8rem);
-    width: clamp(5rem, 10vw, 8rem);
+    height: 100%;
+    min-height: 5rem;
+    min-width: 5rem;
+    width: 100%;
     border-radius: 15px;
 }
 
